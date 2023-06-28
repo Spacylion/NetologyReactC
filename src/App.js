@@ -1,5 +1,7 @@
-import "./App.css"
-import ShopItemFunc from "./components/ShopItemFunc"
+// import "./components/styles/1.css"
+import "./components/styles/2.css"
+// import ShopItemFunc from "./components/ShopItemFunc"
+import ShopItemClass from "./components/ShopItemClass"
 
 const item = {
   brand: "Tiger of Sweden",
@@ -19,7 +21,7 @@ function App() {
         <div className='highlight-overlay'></div>
       </div>
       <div className='window'>
-        <ShopItemFunc item={item} />
+        <ShopItemClass item={item} />
       </div>
     </div>
   )
